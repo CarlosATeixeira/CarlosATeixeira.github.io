@@ -1,0 +1,312 @@
+:root {
+    --font-scale: 1.2; /* Adjust this value for scaling */
+}
+* {
+    font-size: calc(16px * var(--font-scale));
+}
+
+body{
+    zoom: 1.2; /* This will zoom the content to 120% */
+    background-image: url(../imagens/pentagon-pattern.webp);
+    background-clip: content-box;
+    background-size: 1120px auto; /* Set the width to 1120px and height to auto */
+    background-repeat: repeat-y; /* Repeat only on the horizontal axis */
+    background-color: #020202;
+    color: white;
+    font-family: Consolas, sans-serif;
+    text-align: center;
+}
+
+#header{
+    opacity: 1;
+}
+
+#header h1{
+    font-size: calc(50px * var(--font-scale));
+    margin: 50px auto 0px auto;
+    text-shadow:
+        -2px -2px 15px #000,  
+        2px -2px 15px #000,
+        -2px 2px 15px #000,
+        2px 2px 15px #000,
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+#header #nav_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #020202;
+    box-shadow: 0px 0px 20px 20px #020202b2,
+                
+}
+
+#header #nav_menu a{
+    color: black;
+    margin: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+}
+
+#header #nav_menu .first{
+    padding: 5px 10px 5px 15px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#header #nav_menu .mid{
+    border-radius: 0px;
+}
+
+#header #nav_menu .last{
+    padding: 5px 15px 5px 10px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+#header #nav_menu a:visited{
+    color: black;
+}
+
+#header #nav_menu a:hover{
+    background-color: #020202;
+    color: white;
+}
+
+#header #nav_menu ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;  /* Removes default margin */
+    padding: 0;  /* Removes default padding */
+    width: 100%; /* Takes full width of its parent */
+}
+
+#resumo_page{
+    background-color: transparent;
+    color: black;
+    margin: auto;
+    width: 80%;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
+.cmdTitleBar{
+    background-color: #2e2e2e;
+    width: auto;
+    padding: 5px;
+    height: 20px;
+    margin: 0px 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cmdTextZone{
+    text-align: left;
+    display: flex;
+    background-color: #0c0c0c;
+    color: white;
+    width: auto;
+    margin: 0px 100px;
+    padding: 10px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cmdIcon{
+    color: white;
+}
+
+.cmdText{
+    margin: 0px 10px 10px 15px ;
+    width: auto;
+    text-align: left;
+}
+
+.crt {
+    position: relative; /* This confines the pseudo-element to the boundaries of this element */
+    overflow: hidden;   /* This ensures the pseudo-element doesn't overflow the .crt element */
+}
+.crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 3px, 5px 100%;
+    pointer-events: none;
+    
+    animation: rolling 10s linear infinite;
+}
+@keyframes rolling {
+    0%{
+        background-position: 0% 0%, 0% 0%;
+    }
+    100%{
+        background-position: 0% 100%, 0% 0%;
+    }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+.blinking {
+    animation: blink 1s infinite;
+}
+
+.glow {
+    text-shadow: 0 0 0px #ffffff86, /* horizontal, vertical, blur, color */
+                0 0 10px #ffffff86, 
+                0 0 10px #ffffff86;
+}
+
+.blueCmd{
+    color: #3caaff;
+    text-shadow: 0 0 0px #3caaff86, /* horizontal, vertical, blur, color */
+                0 0 10px #3caaff86, 
+                0 0 10px #3caaff86;
+}
+
+.yellowCmd{
+    color: #FFA500;
+    text-shadow: 0 0 0px #FFA500, /* horizontal, vertical, blur, color */
+                0 0 10px #FFA500, 
+                0 0 10px #FFA500;
+}
+.greenCmd{
+    color: #00ff00;
+    text-shadow: 0 0 0px #00ff0086, /* horizontal, vertical, blur, color */
+                0 0 10px #00ff0086, 
+                0 0 10px #00ff0086;
+}
+.redCmd{
+    color: #FF0000;
+    text-shadow: 0 0 0px #FF000086, /* horizontal, vertical, blur, color */
+                0 0 10px #FF000086, 
+                0 0 10px #FF000086;
+}
+
+.last-typed{
+    border-right: .15em solid white;
+    animation: cursorblink 1s infinite;
+}
+
+.currently-typing {
+    border-right: .15em solid white;
+}
+
+
+@keyframes cursorblink {
+    0%, 100% {
+        border-color: white;
+    }
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main_page{
+    margin: auto;
+    background-color: white;
+    color: #000;
+    min-width: 70%;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.main_page a*{
+    box-shadow: 0 0 1px 0px;
+}
+
+.experiencia-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.experiencia-item h3, .experiencia-item p {
+    margin: 0; /* Remove default margins */
+    /* Add any other desired styles, like a little margin-bottom for spacing */
+}
+
+.experiencia-item p{
+    font-size: small;
+}
+
+.data{
+    font-size: medium;
+}
+
+.experiencia-item {
+    display: flex;
+    align-items: center; /* This vertically centers the content next to the image */
+    padding: 10px;
+}
+
+.experiencia-item img {
+    width: 100px; /* You can adjust this as needed */
+    height: auto;
+    margin-right: 10px; /* Space between the image and the title */
+}
+
+.experiencia-item .content {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    flex-grow: 1; /* This makes the content occupy the remaining space */ 
+}
+
+
+
+
+
+
+.white{
+    color: #ffffff;
+}
+
+[tab="1"]::before{
+    content: "\2003\2003";
+}
+
+[tab="2"]::before{
+    content: "\2003\2003\2003\2003";
+}
+
+[tab="3"]::before{
+    content: "\2003\2003\2003\2003\2003\2003";
+}
+
+body[data-page="resumo"] #header #nav_menu #resumo{
+    background-color: #020202 !important;
+    color: white !important;
+}
+
+body[data-page="experiencia"] #header #nav_menu #experiencia{
+    background-color: #020202 !important;
+    color: white !important;
+}
+
+footer{
+    position: absolute fixed;
+    background-color: black;
+}
