@@ -7,38 +7,51 @@
     <link rel="icon" type="image/png" href="../imagens/fav.png">
     <link rel="stylesheet" href="index.css">
     <script src="onload.js"></script>
+    <script src="typing-animation.js"></script>
 </head>
 <body data-page="experiencia">
     <div id="header"></div>
 
     <div class="main_page">
-        <div class="experiencia-grid">
-            <div class="experiencia-item">
-                <img src="../imagens/experiencia/behive.png" alt="Exp Image">
-                <div class="content">
-                    <h3>Behive Tecnologia</h3>
-                    <p class="data">2000-2100</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, quibusdam.</p>
-                </div>
-            </div>
-            <div class="experiencia-item">
-                <img src="../imagens/experiencia/behive.png" alt="Exp Image">
-                <div class="content">
-                    <h3>Behive Tecnologia</h3>
-                    <p>2000-2100</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, quibusdam.</p>
-                </div>
-            </div>
-            <div class="experiencia-item">
-                <img src="../imagens/experiencia/behive.png" alt="Exp Image">
-                <div class="content">
-                    <h3>Behive Tecnologia</h3>
-                    <p>2000-2100</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, quibusdam.</p>
+        <div id="experienciaLista">
+            <div class="cmd" id="cmd1">
+                <div class="crt cmdTitleBar"><span class="yellowCmd">Behive Tecnologias</span></div>
+                <div class="crt cmdTextZone">
+                    <div class="glow blinking cmdIcon">></div>
+                    <div class="experiencia_grid">
+                        <p class="glow cmdText experiencia_cmd_image">
+                            <img src="../imagens/experiencia/behive.png" alt="Exp Image">
+                        </p>
+                        <br><br>
+                        <p class="glow cmdText">
+                            <span class="greenCmd typing-animation" data-text="Informações:"></span>
+                            <br>
+                            <br>
+                            <span class="blueCmd typing-animation" data-text="Nome: " tab="1"></span>
+                            <span class="typing-animation" data-text="Behive Tecnologias"></span>
+                            <br>
+                            <span class="blueCmd typing-animation" data-text="Data: " tab="1"></span>
+                            <span class="typing-animation" data-text="2021 - HOJE"></span>
+                            <br>
+                            <span class="blueCmd typing-animation" data-text="Setor: " tab="1"></span>
+                            <span class="typing-animation" data-text="Estágio"></span>
+                            <br>
+                            <span class="blueCmd typing-animation" data-text="Funções: " tab="1"></span>
+                            <br>
+                            <div tab="2">
+                                <span class="typing-animation" data-text="> Elaboração de Projetos de Cálculo de Desempenho e Interferência de Rádio Enlace."></span>
+                                <br>
+                                <span class="typing-animation" data-text="> Análise e edição de Prospecção/Los de Rádio Enlace Ponto a Ponto."></span>
+                                <br>
+                                <span class="typing-animation" data-text="> Elaboração de relatórios de viabilidade para criação de enlaces Levantamento de base 3D."></span>
+                                <br>
+                                <span class="typing-animation" data-text="> Cadastramento de links de microondas no SITAR da ANATEL, entre outras atividades."></span>
+                            </p>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <div id="footer"></div>
 </body>

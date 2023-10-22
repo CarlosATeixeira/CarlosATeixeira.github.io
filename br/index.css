@@ -3,6 +3,7 @@
 }
 * {
     font-size: calc(16px * var(--font-scale));
+    /*box-shadow: 0 0 1px 0 #FF0000;*/
 }
 
 body{
@@ -88,7 +89,7 @@ body{
     width: 100%; /* Takes full width of its parent */
 }
 
-#resumo_page{
+.main_page{
     background-color: transparent;
     color: black;
     margin: auto;
@@ -123,7 +124,7 @@ body{
 
 .cmdText{
     margin: 0px 10px 10px 15px ;
-    width: auto;
+    width: 100%;
     text-align: left;
 }
 
@@ -215,65 +216,27 @@ body{
 
 
 
+/*-------------------------------------*/
+/* Experiencia */
+/*-------------------------------------*/
 
+.experiencia_grid{
+    padding-right: 16px;
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-.main_page{
+.experiencia_cmd_image{
+    align-items: center;
+    text-align: center;
+    width: auto;
     margin: auto;
-    background-color: white;
-    color: #000;
-    min-width: 70%;
-    max-width: 90%;
-    border-radius: 10px;
 }
 
-.main_page a*{
-    box-shadow: 0 0 1px 0px;
-}
 
-.experiencia-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
 
-.experiencia-item h3, .experiencia-item p {
-    margin: 0; /* Remove default margins */
-    /* Add any other desired styles, like a little margin-bottom for spacing */
-}
 
-.experiencia-item p{
-    font-size: small;
-}
 
-.data{
-    font-size: medium;
-}
 
-.experiencia-item {
-    display: flex;
-    align-items: center; /* This vertically centers the content next to the image */
-    padding: 10px;
-}
-
-.experiencia-item img {
-    width: 100px; /* You can adjust this as needed */
-    height: auto;
-    margin-right: 10px; /* Space between the image and the title */
-}
-
-.experiencia-item .content {
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
-    flex-grow: 1; /* This makes the content occupy the remaining space */ 
-}
 
 
 
@@ -284,16 +247,16 @@ body{
     color: #ffffff;
 }
 
-[tab="1"]::before{
-    content: "\2003\2003";
+[tab="1"]{
+    margin-left: 30px;
 }
 
-[tab="2"]::before{
-    content: "\2003\2003\2003\2003";
+[tab="2"]{
+    margin-left: 60px;
 }
 
-[tab="3"]::before{
-    content: "\2003\2003\2003\2003\2003\2003";
+[tab="3"]{
+    margin-left: 100px;
 }
 
 body[data-page="resumo"] #header #nav_menu #resumo{
@@ -307,6 +270,7 @@ body[data-page="experiencia"] #header #nav_menu #experiencia{
 }
 
 footer{
+    color: white;
     position: absolute fixed;
     background-color: black;
 }
