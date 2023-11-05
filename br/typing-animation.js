@@ -1,7 +1,11 @@
-let typingSpeed = 50;
-const max = 50;
-const min = 25;
+let typingSpeed = 0;
+const max = 0;
+const min = 0;
 let currentLine = 0;
+
+document.addEventListener("DOMContentLoaded", function() {
+    typeText();
+});
 
 const typeText = () => {
     const zones = document.querySelectorAll('.cmd');
@@ -31,7 +35,3 @@ const typeLetter = (line, text, position, allLines) => {
         }
     }
 };
-
-document.addEventListener("DOMContentLoaded", function() {
-  typeText();
-});

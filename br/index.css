@@ -10,9 +10,10 @@ body{
     zoom: 1.2; /* This will zoom the content to 120% */
     background-image: url(../imagens/pentagon-pattern.webp);
     background-clip: content-box;
-    background-size: 1120px auto; /* Set the width to 1120px and height to auto */
+    background-size: auto; /* Set the width to 1120px and height to auto */
     background-repeat: repeat-y; /* Repeat only on the horizontal axis */
     background-color: #020202;
+    background-position: center top;
     color: white;
     font-family: Consolas, sans-serif;
     text-align: center;
@@ -98,6 +99,16 @@ body{
     border-radius: 25px;
 }
 
+.white_page{
+    background-color: white;
+    color: black;
+}
+
+.black_page{
+    background-color: #000;
+    color: white;
+}
+
 .cmdTitleBar{
     background-color: #2e2e2e;
     width: auto;
@@ -130,7 +141,7 @@ body{
 
 .crt {
     position: relative; /* This confines the pseudo-element to the boundaries of this element */
-    overflow: hidden;   /* This ensures the pseudo-element doesn't overflow the .crt element */
+    /*overflow: hidden;   /* This ensures the pseudo-element doesn't overflow the .crt element */
 }
 .crt::before {
     content: " ";
@@ -140,7 +151,7 @@ body{
     left: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
     background-size: 100% 3px, 5px 100%;
     pointer-events: none;
     
@@ -232,9 +243,55 @@ body{
     margin: auto;
 }
 
+pre{
+    text-align: center;
+    font-size: xx-small;
+}
 
 
 
+
+/*-------------------------------------*/
+/* CERTIFICADOS */
+/*-------------------------------------*/
+
+.certificados_page{
+    width: 70%;
+}
+
+.certificados{
+    padding: 0 25px 0 25px;
+}
+
+.certificados_grid{
+    display: grid;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: auto;
+    column-gap: 50px;
+}
+
+.certificicados_item{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.certificado_img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.certificado_text{
+    display: block;
+    text-align: left;
+}
+
+.certificado_titulo, .certificado_origem{
+    font-weight: bold;
+}
 
 
 
@@ -270,6 +327,7 @@ body[data-page="experiencia"] #header #nav_menu #experiencia{
 }
 
 footer{
+    bottom: 0;
     color: white;
     position: absolute fixed;
     background-color: black;
