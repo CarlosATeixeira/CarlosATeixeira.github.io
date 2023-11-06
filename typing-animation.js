@@ -1,6 +1,6 @@
-let typingSpeed = 0;
-const max = 0;
-const min = 0;
+let typingSpeed = 50;
+const max = 50;
+const min = 10;
 let currentLine = 0;
 
 document.addEventListener("DOMContentLoaded", function() {
