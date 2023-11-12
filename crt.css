@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient(ellipse at center, rgba(255,255,255,0) 70%, rgba(0,0,0,0.5) 100%);
+}
+  
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05) 0,
+      rgba(0, 0, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+    pointer-events: none; /* Lets clicks pass through */
+}
+
+.container {
+border-radius: 30px;
+overflow: hidden; /* Ensures content matches the rounded corners */
+}
+
+.container {
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+}
+
+body::before {
+content: '';
+position: absolute;
+top: 0;
+left: 50%;
+width: 100%;
+height: 100%;
+background-image: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%);
+transform: translateX(-50%);
+pointer-events: none;
+}
+  

@@ -1,0 +1,12 @@
+.experiencia_grid{
+    padding-right: 16px;
+    width: 100%;
+}
+
+.experiencia_cmd_image{
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    font-size: min(max(3px, 0.5vw), 14px);
+}

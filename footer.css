@@ -1,0 +1,11 @@
+#footer{
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    font-size: min(max(20px, 10vw) 50px);
+    margin-top: 50px;
+    bottom: 0;
+    color: white;
+    position: absolute fixed;
+    background-color: black;
+}

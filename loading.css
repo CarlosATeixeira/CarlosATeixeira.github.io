@@ -1,0 +1,13 @@
+p{
+    position: fixed;
+    bottom: 0;
+    margin: 20px min(max(10vw, 20px), 100px);
+    text-align: left;
+}
+
+span{
+    user-select: none;
+    display: block;
+    font-size: x-large;
+    margin: 8px 0;
+}

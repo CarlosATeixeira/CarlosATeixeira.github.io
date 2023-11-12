@@ -1,0 +1,64 @@
+body{
+    color: white;
+    font-family: Consolas, sans-serif;
+    text-align: center;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+.blinking {
+    animation: blink 1s infinite;
+}
+
+.glow {
+    text-shadow: 0 0 0px #ffffff86, /* horizontal, vertical, blur, color */
+                0 0 10px #ffffff86, 
+                0 0 10px #ffffff86;
+}
+
+.blue{
+    color: #3caaff;
+    text-shadow: 0 0 0px #3caaff86, /* horizontal, vertical, blur, color */
+                0 0 10px #3caaff86, 
+                0 0 10px #3caaff86;
+}
+
+.yellow{
+    color: #FFA500;
+    text-shadow: 0 0 0px #FFA500, /* horizontal, vertical, blur, color */
+                0 0 10px #FFA500, 
+                0 0 10px #FFA500;
+}
+.green{
+    color: #00ff00;
+    text-shadow: 0 0 0px #00ff0086, /* horizontal, vertical, blur, color */
+                0 0 10px #00ff0086, 
+                0 0 10px #00ff0086;
+}
+.redCmd{
+    color: #FF0000;
+    text-shadow: 0 0 0px #FF000086, /* horizontal, vertical, blur, color */
+                0 0 10px #FF000086, 
+                0 0 10px #FF000086;
+}
+
+.white{
+    color: #ffffff;
+    text-shadow: 0 0 0px #ffffff86, /* horizontal, vertical, blur, color */
+                0 0 10px #ffffff86, 
+                0 0 10px #ffffff86;
+}
+
+[tab="1"]{
+    margin-left: 30px;
+}
+
+[tab="2"]{
+    margin-left: 60px;
+}
+
+[tab="3"]{
+    margin-left: 100px;
+}

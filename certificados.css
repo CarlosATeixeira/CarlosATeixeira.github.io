@@ -1,0 +1,37 @@
+.certificados_page{
+    width: 70%;
+}
+
+.certificados{
+    padding: 0 25px 0 25px;
+}
+
+.certificados_grid{
+    display: grid;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: auto;
+    column-gap: 50px;
+}
+
+.certificicados_item{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: min(max(150px, 50vw), 2000px);
+}
+
+.certificado_img{
+    display: block;
+    width: min(max(50px, 6vw), 150px);
+    margin-right: 20px;
+}
+
+.certificado_text{
+    display: block;
+    text-align: left;
+}
+
+.certificado_titulo, .certificado_origem{
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.cmdTitleBar{
+    background-color: #2e2e2e;
+    width: min(max(300px, 80vw), 1400px);
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    font-size: min(max(16px, 10vw), 20px);
+}
+
+.cmdTextZone{
+    text-align: left;
+    display: flex;
+    background-color: #0c0c0c;
+    color: white;
+    width: min(max(300px, 80vw), 1400px);
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: min(max(16px, 10vw), 20px);
+}
+
+.cmdIcon{
+    color: white;
+}
+
+.cmdText{
+    margin: 0px 10px 10px 15px ;
+    width: 100%;
+    text-align: left;
+}
+
+.last-typed{
+    border-right: .15em solid white;
+    animation: cursorblink 1s infinite;
+}
+
+.currently-typing {
+    border-right: .15em solid white;
+}
+
+
+@keyframes cursorblink {
+    0%, 100% {
+        border-color: white;
+    }
+    50% {
+        border-color: transparent;
+    }
+}
