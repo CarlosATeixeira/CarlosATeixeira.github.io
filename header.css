@@ -1,11 +1,11 @@
-#header{
+header{
     opacity: 1;
     font-family: Consolas;
     letter-spacing: 0;
     size: 2px;
 }
 
-#header h1{
+header h1{
     font-size: min(max(16px, 10vw), 75px);
     margin: 50px auto 0px auto;
     text-shadow:
@@ -19,7 +19,7 @@
         2px 2px 0 #000;
 }
 
-#header #nav_menu{
+header #nav_menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
                 
 }
 
-#header #nav_menu a{
+header #nav_menu a{
     color: black;
     margin: 1px;
     text-decoration: none;
@@ -42,30 +42,30 @@
     font-size: min(max(8px, 2.8vw), 24px);
 }
 
-#header #nav_menu .first{
+header #nav_menu .first{
     padding: 5px 10px 5px 15px;
     border-radius: 25px 0px 0px 25px;
 }
 
-#header #nav_menu .mid{
+header #nav_menu .mid{
     border-radius: 0px;
 }
 
-#header #nav_menu .last{
+header #nav_menu .last{
     padding: 5px 15px 5px 10px;
     border-radius: 0px 25px 25px 0px;
 }
 
-#header #nav_menu a:visited{
+header #nav_menu a:visited{
     color: black;
 }
 
-#header #nav_menu a:hover{
+header #nav_menu a:hover{
     background-color: #020202;
     color: white;
 }
 
-#header #nav_menu ul {
+header #nav_menu ul {
     list-style-type: none; /* Removes bullet points */
     margin: 0;  /* Removes default margin */
     padding: 0;  /* Removes default padding */

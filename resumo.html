@@ -17,15 +17,23 @@
     <link rel="icon" type="image/png" href="../imagens/fav.png">
     <link rel="stylesheet" href="crt.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="cmd.css">
+    <link rel="stylesheet" href="cmd.css"><link rel="preload" href="fonts/Saira.ttf" as="font" type="font/ttf">
     <link rel="stylesheet" href="text-format.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
-    <script src="onload.js"></script>
     <script src="typing-animation.js"></script>
 </head>
 <body>
-    <div id="header"></div>
+    <header>
+        <h1>Carlos Alberto</h1>
+        <nav id="nav_menu">
+            <ul><a href="resumo.html" class="first" id="resumo">Resumo</a></ul>
+            <ul><a href="experiencia.html" class="mid" id="experiencia">Experiência</a></ul>
+            <ul><a href="certificados.html" class="mid" id="certificados">Certificados</a></ul>
+            <ul><a href="portfolio.html" class="mid" id="portfolio">Portfólio</a></ul>
+            <ul><a href="" class="last" id="contato">Contato</a></ul>
+        </nav>
+    </header>
 
     <div class="main_page">
         <div class="cmd" id="cmd1">
@@ -56,7 +64,9 @@
             </div>
         </div>
     </div>
-    <div id="footer"></div>
+    <footer>
+    <p>Carlos Alberto &#169 Brasil 2023</p>
+</footer>
 </body>
 <style>
     #resumo{
