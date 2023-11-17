@@ -23,7 +23,7 @@
 .cmdIcon{
     color: white;
     font-size: x-large;
-    margin: 0 20px;
+    margin: 0 min(max(5px, 1vw), 20px);
 }
 
 .cmdText{

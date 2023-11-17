@@ -1,7 +1,3 @@
-.certificados_page{
-    width: 70%;
-}
-
 .certificados{
     padding: 0 25px 0 25px;
 }
@@ -9,7 +5,7 @@
 .certificados_grid{
     display: grid;
     grid-auto-rows: 150px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: auto;
     column-gap: 50px;
 }
@@ -18,7 +14,8 @@
     display: flex;
     align-items: center;
     padding: 0;
-    width: auto;
+    width: 100%;
+    /* width: min(max(10px, 60vw), 600px); */
 }
 
 .certificado_img{
@@ -30,6 +27,7 @@
 .certificado_text{
     display: block;
     text-align: left;
+    width: 80%;
 }
 
 .certificado_titulo, .certificado_origem{
