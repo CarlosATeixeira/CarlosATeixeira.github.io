@@ -1,0 +1,22 @@
+.main_page{
+    width: 100%;
+    background-color: transparent;
+    padding: min(max(5px, 2vw), 15px);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.white_page{
+    background-color: white;
+    color: black;
+}
+
+.gray_page{
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.black_page{
+    background-color: #000;
+    color: white;
+}

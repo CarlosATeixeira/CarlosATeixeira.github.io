@@ -4,31 +4,16 @@
     box-sizing: border-box;         /* Opera/IE 8+ */
     margin: 0;
     padding: 0;
+    /* border: 1px #ff0000 solid; */
 }
 
 body{
-    background-image: url(../imagens/pentagon-pattern.webp);
+    background-image: url(./imagens/wave-background.png);
     background-size: 100vw auto; /* Set the width to 1120px and height to auto */
-    background-repeat: repeat-y; /* Repeat only on the horizontal axis */
+    background-repeat: no-repeat; /* Repeat only on the horizontal axis */
+    background-attachment: fixed;
     background-color: #020202;
     background-position: center top;
-}
-
-.main_page{
-    width: 100%;
-    background-color: transparent;
-    margin: auto;
-    border-radius: 10px;
-}
-
-.white_page{
-    background-color: white;
-    color: black;
-}
-
-.black_page{
-    background-color: #000;
-    color: white;
 }
 
 body[data-page="resumo"] #header #nav_menu #resumo{

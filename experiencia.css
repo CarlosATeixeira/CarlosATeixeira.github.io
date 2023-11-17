@@ -9,4 +9,5 @@
     width: auto;
     margin: auto;
     font-size: min(max(3px, 0.5vw), 14px);
+    letter-spacing: 0;
 }

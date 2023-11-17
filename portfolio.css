@@ -1,0 +1,57 @@
+.portfolio_page{
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+.portfolio_title{
+    font-size: xxx-large;
+    font-weight: 1000;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.portfolio_indice_itens{
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    font-family: inherit;
+}
+
+.item_details{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.item_details hr{
+    margin: 50px;
+}
+
+h3{
+    margin: 10px;
+}
+
+.intro_item_img_grid{
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+img{
+    margin: 10px;
+    display: flexbox;
+    width: min(max(50px, 100%), 600px);
+    border: 2px black solid;
+    border-radius: 10px;
+}

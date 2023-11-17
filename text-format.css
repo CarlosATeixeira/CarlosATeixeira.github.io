@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'PrimaryFont';
+    src: url('fonts/Saira.ttf') format('truetype'); /* Modern browsers support woff2 */
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     color: white;
-    font-family: Consolas, sans-serif;
+    font-family: PrimaryFont, Consolas, sans-serif;
     text-align: center;
+    letter-spacing: 0.01vw;
 }
 
 @keyframes blink {
@@ -37,7 +45,7 @@ body{
                 0 0 10px #00ff0086, 
                 0 0 10px #00ff0086;
 }
-.redCmd{
+.red{
     color: #FF0000;
     text-shadow: 0 0 0px #FF000086, /* horizontal, vertical, blur, color */
                 0 0 10px #FF000086, 

@@ -14,11 +14,11 @@
     column-gap: 50px;
 }
 
-.certificicados_item{
+.certificados_item{
     display: flex;
     align-items: center;
     padding: 0;
-    width: min(max(150px, 50vw), 2000px);
+    width: auto;
 }
 
 .certificado_img{

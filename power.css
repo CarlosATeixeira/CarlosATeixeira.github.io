@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
-    min-height: 100vh; /* At least the full height of the viewport */
+    min-height: 100svh; /* At least the full height of the viewport */
 }
 
 i{
