@@ -80,7 +80,7 @@ const typeLetter = (line, text, position, allLines) => {
 
 function Redirecting(){
     // Since it's an ID, there should be only one element, so we use document.querySelector
-    let countdown = 3;
+    let countdown = 1;
     let span = document.createElement('span');
     span.className = 'redirecting';
     span.textContent = `Redirecting in ... ${countdown}`;

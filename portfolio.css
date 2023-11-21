@@ -50,7 +50,35 @@ h3{
 img{
     margin: 10px;
     display: flexbox;
-    width: min(max(50px, 100%), 600px);
+    width: min(max(50px, 100%), 400px);
+    height: fit-content;
     border: 2px black solid;
     border-radius: 10px;
+}
+
+.solo{
+    width: min(max(50px, 100%), 600px);
+}
+
+#backtotop_buttom{
+    border: none;
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    background-color: #111;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+#backtotop_buttom:hover{
+    scale: 1.1;
+}
+
+#backtotop_buttom:active{
+    scale: 0.9;
 }

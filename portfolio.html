@@ -16,6 +16,7 @@
     <title>Carlos Alberto</title>
     <link rel="preload" href="fonts/Saira.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="../imagens/fav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="crt.css">
     <link rel="stylesheet" href="page-format.css">
     <link rel="stylesheet" href="index.css">
@@ -33,11 +34,11 @@
         <ul><a href="experiencia.html" class="mid" id="experiencia">Experiência</a></ul>
         <ul><a href="certificados.html" class="mid" id="certificados">Certificados</a></ul>
         <ul><a href="portfolio.html" class="mid" id="portfolio">Portfólio</a></ul>
-        <ul><a href="" class="last" id="contato">Contato</a></ul>
+        <ul><a href="contato.html" class="last" id="contato">Contato</a></ul>
     </nav>
 </header>
 
-    <div class="main_page gray_page portfolio_page">
+    <div class="main_page gray_page portfolio_page" id="indice">
         <p class="portfolio_title">Portfólio</p>
         <hr style="margin: 20px auto; max-width: 500px;">
         <h1>Índice</h1>
@@ -74,11 +75,38 @@
                     <li>Camisetas</li>
                 </ul>
             </div>
+            <br>
+            <div id="games">
+                <h2>Jogos</h2>
+                <br>
+                <ul>
+                    <li>Sudoku</li>
+                    <li>Tetris</li>
+                </ul>
+            </div>
+            <br>
+            <div id="logos">
+                <h2>Logos</h2>
+                <br>
+                <ul>
+                    <li>Sudoku</li>
+                    <li>Tetris</li>
+                </ul>
+            </div>
+            <br>
+            <div id="gta5">
+                <h2>GTA 5 - FIVE M</h2>
+                <br>
+                <ul>
+                    <li>Cidade Grande</li>
+                    <li>Baixada Carioca</li>
+                </ul>
+            </div>
         </div>
         <hr style="margin: 70px auto 20px auto; max-width: 500px;">
     </div>
     <div style="height: 50px;"></div>
-    <div class="main_page gray_page portfolio_page item_details">
+    <div class="main_page gray_page portfolio_page item_details" id="intro_page">
         <div class="portfolio_item">
             <h2>Intro para canal do Youtube: <span style="color: red;">M4STER</span></h2>
             <p>(Versão 1)</p>
@@ -164,7 +192,7 @@
         </div>
     </div>
     <div style="height: 50px;"></div>
-    <div class="main_page gray_page portfolio_page item_details">
+    <div class="main_page gray_page portfolio_page item_details" id="portfolios_page">
         <div class="portfolio_item">
             <h2>Portfólio para: <span style="color: red;">ARQUITETA</span></h2>
             <br>
@@ -194,7 +222,7 @@
         </div>
     </div>
     <div style="height: 50px;"></div>
-    <div class="main_page gray_page portfolio_page item_details">
+    <div class="main_page gray_page portfolio_page item_details" id="crea_page">
         <div class="portfolio_item">
             <h2>Crea Jr: <span style="color: red;">BANNERS</span></h2>
             <br>
@@ -213,10 +241,10 @@
             <br>
             <div class="portfolio_item_img_grid">
                 <img src="imagens/portfolio/creajr/posts/1.jpg">
+                <img src="imagens/portfolio/creajr/posts/5.jpg">
                 <img src="imagens/portfolio/creajr/posts/2.jpg">
                 <img src="imagens/portfolio/creajr/posts/3.jpg">
                 <img src="imagens/portfolio/creajr/posts/4.jpg">
-                <img src="imagens/portfolio/creajr/posts/5.jpg">
             </div>
             <hr>
         </div>
@@ -231,7 +259,85 @@
             <hr>
         </div>
     </div>
+    <div class="main_page gray_page portfolio_page item_details" id="games_page">
+        <div class="portfolio_item" id="games_sudoku">
+            <h2>Jogos: <span style="color: red;">Sudoku</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img class="solo" src="imagens/portfolio/games/sudoku.png">
+            </div>
+            <hr>
+        </div>
+        <div class="portfolio_item" id="games_tetris">
+            <h2>Jogos: <span style="color: red;">Tetris</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img class="solo" src="imagens/portfolio/games/tetris.jpg">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="main_page gray_page portfolio_page item_details" id="logos_page">
+        <div class="portfolio_item" id="logos_litrao">
+            <h2>Logos: <span style="color: red;">Família Litrão</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img src="imagens/portfolio/logos/litrao_white.png">
+                <img src="imagens/portfolio/logos/litrao_black.png">
+                <img src="imagens/portfolio/logos/litrao_blackandwhite.png">
+                <img src="imagens/portfolio/logos/litrao_shield.png">
+            </div>
+            <hr>
+        </div>
+        <div class="portfolio_item" id="logos_shoganai">
+            <h2>Logos: <span style="color: red;">Shoganai</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img src="imagens/portfolio/logos/shoganai_embreve.png">
+                <img src="imagens/portfolio/logos/shoganai_a.png">
+            </div>
+            <hr>
+        </div>
+        <div class="portfolio_item" id="logos_zahy">
+            <h2>Logos: <span style="color: red;">Zahy</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img src="imagens/portfolio/logos/zahy_black.png">
+                <img src="imagens/portfolio/logos/zahy_white.png">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="main_page gray_page portfolio_page item_details" id="gta5_page">
+        <div class="portfolio_item" id="gta5_cidadegrande">
+            <h2>GTA 5 - FIVE M: <span style="color: red;">Cidade Grande</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img src="imagens/portfolio/gta5/cidade_grande/hells_angels.png">
+                <img src="imagens/portfolio/gta5/cidade_grande/israel.png">
+                <img src="imagens/portfolio/gta5/cidade_grande/luxor.png">
+                <img src="imagens/portfolio/gta5/cidade_grande/mexico.png">
+                <img src="imagens/portfolio/gta5/cidade_grande/overdrive.png">
+            </div>
+            <hr>
+        </div>
+        <div class="portfolio_item" id="gta5_baixadacarioca">
+            <h2>GTA 5 - FIVE M: <span style="color: red;">Baixada Carioca</span></h2>
+            <br>
+            <div class="portfolio_item_img_grid">
+                <img src="imagens/portfolio/gta5/baixada_carioca/feliz_aniversario.png">
+                <img src="imagens/portfolio/gta5/baixada_carioca/rr.png">
+                <img src="imagens/portfolio/gta5/baixada_carioca/doacao_de_sangue.png">
+                <img src="imagens/portfolio/gta5/baixada_carioca/cidade_on.png">
+                <img src="imagens/portfolio/gta5/baixada_carioca/tabela_de_precos.png">
+                <img src="imagens/portfolio/gta5/baixada_carioca/bate_bate_panto.png">
+            </div>
+            <hr>
+        </div>
+    </div>
         
+    <a href="#indice"><button id="backtotop_buttom"><i class="fas fa-arrow-up"></i></i></button></a>
+
     <footer>
     <p>Carlos Alberto &#169 Brasil 2023</p>
 </footer>

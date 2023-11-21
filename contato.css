@@ -1,0 +1,49 @@
+.contato_page{
+    display: flex;
+    padding-bottom: 50px;
+    min-height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato_title{
+    font-size: xxx-large;
+    font-weight: 1000;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: larger;
+}
+
+a{
+    width: 0;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.e-mail{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding-inline: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-block: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.e-mail:hover{
+    scale: 1.1;
+}
