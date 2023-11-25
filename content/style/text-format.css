@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'PrimaryFont';
-    src: url('fonts/Saira.ttf') format('truetype'); /* Modern browsers support woff2 */
+    src: url('/content/fonts/Saira.ttf') format('truetype'); /* Modern browsers support woff2 */
     font-weight: normal;
     font-style: normal;
 }
@@ -10,6 +10,7 @@ body{
     font-family: PrimaryFont, Consolas, sans-serif;
     text-align: center;
     letter-spacing: 0.01vw;
+    letter-spacing: 0.01svw;
 }
 
 @keyframes blink {

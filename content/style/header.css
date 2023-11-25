@@ -7,6 +7,7 @@ header{
 
 header h1{
     font-size: min(max(16px, 10vw), 75px);
+    font-size: min(max(16px, 10svw), 75px);
     margin: 50px auto 0px auto;
     text-shadow:
         -2px -2px 15px #000,  
@@ -24,6 +25,7 @@ header #nav_menu{
     justify-content: center;
     align-items: center;
     margin: min(max(20px, 5vw), 50px) auto;
+    margin: min(max(20px, 5svw), 50px) auto;
     max-width: fit-content;
     border-radius: 10px;
     background-color: #020202;
@@ -40,6 +42,7 @@ header #nav_menu a{
     padding: 5px 10px 5px 10px;
     border-radius: 25px;
     font-size: min(max(8px, 2.8vw), 24px);
+    font-size: min(max(8px, 2.8svw), 24px);
 }
 
 header #nav_menu .first{

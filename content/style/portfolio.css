@@ -64,7 +64,9 @@ img{
     border: none;
     position: fixed;
     bottom: 1vh;
+    bottom: 1svh;
     right: 1vw;
+    right: 1svw;
     background-color: #111;
     color: white;
     font-size: xxx-large;
@@ -73,6 +75,7 @@ img{
     height: max-content;
     padding: 20px;
     border-radius: 200px;
+    z-index: 1000;
 }
 
 #backtotop_buttom:hover{

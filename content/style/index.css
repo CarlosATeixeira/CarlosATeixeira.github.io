@@ -8,9 +8,10 @@
 }
 
 body{
-    background-image: url(./imagens/wave-background.png);
+    background-image: url('/content/imagens/wave-background.png');
     background-size: 100vw auto; /* Set the width to 1120px and height to auto */
-    background-repeat: no-repeat; /* Repeat only on the horizontal axis */
+    background-size: 100svw auto; /* Set the width to 1120px and height to auto */
+    background-repeat: round; /* Repeat only on the horizontal axis */
     background-attachment: fixed;
     background-color: #020202;
     background-position: center top;

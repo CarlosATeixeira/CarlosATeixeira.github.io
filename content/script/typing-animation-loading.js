@@ -92,7 +92,7 @@ function Redirecting(){
     span.textContent = `Redirecting in ... ${countdown}`;
     if (countdown === 0) {
         clearInterval(intervalId);
-        window.location.replace('resumo.html'); // Or your desired URL
+        window.location.replace('../language_selector.html'); // Or your desired URL
     }
     }, 1000);
 }

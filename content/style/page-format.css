@@ -2,6 +2,7 @@
     width: max(70%, 380px);
     background-color: transparent;
     padding: min(max(5px, 2vw), 15px);
+    padding: min(max(5px, 2svw), 15px);
     margin: auto;
     border-radius: 10px;
 }

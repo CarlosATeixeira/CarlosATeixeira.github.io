@@ -1,10 +1,12 @@
 .cmdTitleBar{
     background-color: #141414;
     width: min(max(300px, 80vw), 1400px);
+    width: min(max(300px, 80svw), 1400px);
     margin: auto;
     border-radius: 10px 10px 0px 0px;
     padding: 10px;
     font-size: min(max(16px, 10vw), 20px);
+    font-size: min(max(16px, 10svw), 20px);
     font-weight: 1000;
 }
 
@@ -14,16 +16,19 @@
     background-color: #0c0c0c;
     color: white;
     width: min(max(300px, 80vw), 1400px);
+    width: min(max(300px, 80svw), 1400px);
     margin: auto;
     padding: 25px;
     border-radius: 0px 0px 10px 10px;
     font-size: min(max(16px, 10vw), 20px);
+    font-size: min(max(16px, 10svw), 20px);
 }
 
 .cmdIcon{
     color: white;
     font-size: x-large;
     margin: 0 min(max(5px, 1vw), 20px);
+    margin: 0 min(max(5px, 1svw), 20px);
 }
 
 .cmdText{

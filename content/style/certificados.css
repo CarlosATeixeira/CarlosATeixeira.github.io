@@ -21,6 +21,7 @@
 .certificado_img{
     display: block;
     width: min(max(50px, 6vw), 150px);
+    width: min(max(50px, 6svw), 150px);
     margin-right: 20px;
 }
 
