@@ -8,7 +8,7 @@ header{
 header h1{
     font-size: min(max(16px, 10vw), 75px);
     font-size: min(max(16px, 10svw), 75px);
-    margin: 50px auto 0px auto;
+    margin: 0px auto 0px auto;
     text-shadow:
         -2px -2px 15px #000,  
         2px -2px 15px #000,

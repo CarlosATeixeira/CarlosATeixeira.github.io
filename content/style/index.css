@@ -26,3 +26,10 @@ body[data-page="experiencia"] #header #nav_menu #experiencia{
     background-color: #020202 !important;
     color: white !important;
 }
+
+#language_selector{
+    text-decoration: none;
+    width: fit-content;
+    font-size: xxx-large;
+    color: white;
+}

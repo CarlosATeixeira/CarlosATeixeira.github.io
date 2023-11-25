@@ -2,7 +2,16 @@
     padding: 0 25px 0 25px;
 }
 
-.certificados_grid{
+#ordenarPor{
+    background-color: #1e1e1e;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    font-size: large;
+    margin: 20px;
+}
+
+#container-certificados{
     display: grid;
     grid-auto-rows: 150px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

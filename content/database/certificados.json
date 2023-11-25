@@ -1,0 +1,430 @@
+{
+    "pt-BR":[
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: O básico de Java.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Tipos de dados.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Operadores.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Métodos e encapsulamento.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Laços.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Relações entre classes.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Lidando com exceções.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#: Heranças, Polimorfismo e Interfaces.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#: Introdução à orientação a objetos.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#: Primeiros passos.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++: Classes, métodos e atributos.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "10"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++: Entenda melhor a linguagem.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "10"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++: Introdução a linguagem e a STL.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/curso_em_video.jpg",
+            "titulo": "HTML e CSS3: Módulo 1.",
+            "origem": "Curso em Vídeo",
+            "dataConclusao": "2021-06",
+            "horas": "40"
+        },
+        {
+            "imagem": "../content/certificados/img/curso_em_video.jpg",
+            "titulo": "JavaScript.",
+            "origem": "Curso em Vídeo",
+            "dataConclusao": "2021-04",
+            "horas": "40"
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "10ª Mostra Brasileira de Foguetes",
+            "origem": "Agência Espacial Brasileira",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/objetivo.jpg",
+            "titulo": "Meu primeiro Robô",
+            "origem": "Colégio Objetivo",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "19ª Olimpíada Brasileira de Astronomia e Astronáutica",
+            "origem": "Agência Espacial Brasileira",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/inatel.png",
+            "titulo": "1º Lugar: Torneio Arduino Challenge",
+            "origem": "INATEL",
+            "dataConclusao": "2015",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "9ª Mostra Brasileira de Foguetes",
+            "origem": "Agência Espacial Brasileira",
+            "dataConclusao": "2015",
+            "horas": ""
+        }
+    ],
+
+    "en-US":[
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: The Basics of Java.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Data Types.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Operators.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Methods and Encapsulation.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Loops.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Class Relationships.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7: Handling Exceptions.",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#: Inheritance, Polymorphism, and Interfaces.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#: Introduction to Object Orientation.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#: First Steps.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++: Classes, Methods, and Attributes.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "10"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++: Understanding the Language Better.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "10"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++: Introduction to the Language and the STL.",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/curso_em_video.jpg",
+            "titulo": "HTML and CSS3: Module 1.",
+            "origem": "Curso em Vídeo",
+            "dataConclusao": "2021-06",
+            "horas": "40"
+        },
+        {
+            "imagem": "../content/certificados/img/curso_em_video.jpg",
+            "titulo": "JavaScript.",
+            "origem": "Curso em Vídeo",
+            "dataConclusao": "2021-04",
+            "horas": "40"
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "10th Brazilian Rocket Show.",
+            "origem": "Brazilian Space Agency",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/objetivo.jpg",
+            "titulo": "My First Robot.",
+            "origem": "Colégio Objetivo",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "19th Brazilian Astronomy and Astronautics Olympiad.",
+            "origem": "Brazilian Space Agency",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/inatel.png",
+            "titulo": "1st Place: Arduino Challenge Tournament.",
+            "origem": "INATEL",
+            "dataConclusao": "2015",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "9th Brazilian Rocket Show.",
+            "origem": "Brazilian Space Agency",
+            "dataConclusao": "2015",
+            "horas": ""
+        }
+    ],
+
+    "ja-JP": [
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：Javaの基礎",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：データタイプ",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：オペレーター",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：メソッドとカプセル化",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：ループ",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：クラス関係",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "Java SE 7：例外処理",
+            "origem": "Alura",
+            "dataConclusao": "2021-11",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#：継承、ポリモーフィズム、インターフェイス",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#：オブジェクト指向へのイントロダクション",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C#：初歩",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++：クラス、メソッド、属性",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "10"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++：言語をより深く理解する",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "10"
+        },
+        {
+            "imagem": "../content/certificados/img/alura.png",
+            "titulo": "C++：言語とSTLへのイントロダクション",
+            "origem": "Alura",
+            "dataConclusao": "2021-07",
+            "horas": "8"
+        },
+        {
+            "imagem": "../content/certificados/img/curso_em_video.jpg",
+            "titulo": "HTMLとCSS3：モジュール1",
+            "origem": "Curso em Vídeo",
+            "dataConclusao": "2021-06",
+            "horas": "40"
+        },
+        {
+            "imagem": "../content/certificados/img/curso_em_video.jpg",
+            "titulo": "JavaScript",
+            "origem": "Curso em Vídeo",
+            "dataConclusao": "2021-04",
+            "horas": "40"
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "第10回ブラジルロケットショー",
+            "origem": "Brazilian Space Agency",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/objetivo.jpg",
+            "titulo": "私の初めてのロボット",
+            "origem": "Colégio Objetivo",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "第19回ブラジル天文学・宇宙飛行士オリンピアード",
+            "origem": "Brazilian Space Agency",
+            "dataConclusao": "2016",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/inatel.png",
+            "titulo": "第1位：Arduinoチャレンジトーナメント",
+            "origem": "INATEL",
+            "dataConclusao": "2015",
+            "horas": ""
+        },
+        {
+            "imagem": "../content/certificados/img/AEB.png",
+            "titulo": "第9回ブラジルロケットショー",
+            "origem": "Brazilian Space Agency",
+            "dataConclusao": "2015",
+            "horas": ""
+        }
+    ]
+}
