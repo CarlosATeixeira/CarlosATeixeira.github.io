@@ -1,3 +1,21 @@
+const LINGUA = document.documentElement.lang;
+let MESES_NOMES = null;
+
+async function IniciarMesesNomes(){
+    if (MESES_NOMES !== null) {
+        return Promise.resolve(MESES_NOMES);
+    }
+
+    return fetch('../content/database/certificados-meses.json')
+        .then(response => response.json())
+        .then(data => {
+            MESES_NOMES = data[LINGUA] || [];
+            return MESES_NOMES;
+    });
+}
+
+IniciarMesesNomes();
+
 document.addEventListener('DOMContentLoaded', function () {
     carregarCertificados();
     
@@ -8,12 +26,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function carregarCertificados() {
     let opcaoSelecionada = document.getElementById('ordenarPor').value;
-    let lingua = document.documentElement.lang;
-    // console.log(lingua);
+    // console.log(LINGUA);
     fetch('../content/database/certificados.json')
         .then(response => response.json())
         .then(todosCertificados => {
-            let certificados = todosCertificados[lingua] || [];
+            let certificados = todosCertificados[LINGUA] || [];
             aplicarOrdenacao(certificados, opcaoSelecionada);
             montarCertificados(certificados);
         });
@@ -58,8 +75,6 @@ async function montarCertificados(certificados) {
     let container = document.querySelector('#container-certificados');
     container.innerHTML = '';
 
-    let lingua = document.documentElement.lang;
-
     for (let certificado of certificados) {
         let div = document.createElement('div');
         div.className = 'certificados_item';
@@ -101,16 +116,15 @@ function converterParaData(data) {
 }
 
 async function formatarData(data) {
-    let lingua = document.documentElement.lang;
     let partes = data.split('-');
     let ano = partes[0];
-    let mes = partes[1];
-    let mes_Nome = await converterMesParaNome(mes);
-    if(lingua == 'pt-BR'){
+    let mes = parseInt(partes[1]);
+    let mes_Nome = await MESES_NOMES[mes-1];
+    if(LINGUA == 'pt-BR'){
         console.log(mes_Nome);
         return mes ? `${mes_Nome} de ${ano}` : `${ano}`;
     }
-    else if(lingua == 'ja-JP'){
+    else if(LINGUA == 'ja-JP'){
         // Adicione a formatação para o idioma japonês aqui.
     }
     else /* en-US */ {
@@ -118,12 +132,11 @@ async function formatarData(data) {
     }
 }
 
-async function converterMesParaNome(mes) {
-    let lingua = document.documentElement.lang;
+function converterMesParaNome(mes) {
     return fetch('../content/database/certificados-meses.json')
         .then(response => response.json())
         .then(data => {
-            let meses = data[lingua] || [];
-            return meses[parseInt(mes) - 1];
+            let meses = data[LINGUA] || [];
+            return meses;
         });
 }
