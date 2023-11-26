@@ -2,7 +2,6 @@ header{
     opacity: 1;
     font-family: Consolas;
     letter-spacing: 0;
-    size: 2px;
 }
 
 header h1{
@@ -21,6 +20,7 @@ header h1{
 }
 
 header #nav_menu{
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +39,7 @@ header #nav_menu a{
     text-decoration: none;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    padding: 5px 10px 5px 10px;
-    border-radius: 25px;
+    padding: 5px 10px;
     font-size: min(max(8px, 2.8vw), 24px);
     font-size: min(max(8px, 2.8svw), 24px);
 }
@@ -68,9 +67,9 @@ header #nav_menu a:hover{
     color: white;
 }
 
-header #nav_menu ul {
+header #nav_menu li {
+    height: inherit;
     list-style-type: none; /* Removes bullet points */
     margin: 0;  /* Removes default margin */
     padding: 0;  /* Removes default padding */
-    width: 100%; /* Takes full width of its parent */
 }
