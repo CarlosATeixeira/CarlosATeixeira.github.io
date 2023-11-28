@@ -30,6 +30,7 @@ html, body{
     border: 2px black solid;
     border-radius: 5%;
     transition: transform 0.2s;
+    -webkit-user-drag: none;
 }
 
 .flag:hover {

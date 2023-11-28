@@ -1,9 +1,10 @@
 p{
     position: fixed;
     bottom: 0;
-    margin: 20px min(max(10vw, 20px), 100px);
-    margin: 20px min(max(10svw, 20px), 100px);
+    margin: 3% 10%;
+    /* margin: 20px min(max(10svw, 20px), 100px); */
     text-align: left;
+    overflow: hidden;
 }
 
 span{

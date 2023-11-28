@@ -32,4 +32,17 @@ body[data-page="experiencia"] #header #nav_menu #experiencia{
     width: fit-content;
     font-size: xxx-large;
     color: white;
+    
+}
+
+#language_selector > i{
+    transition: scale 0.2s;
+}
+
+#language_selector:hover > i{
+    scale: 1.1;
+}
+
+#language_selector:active > i{
+    scale: 0.9;
 }

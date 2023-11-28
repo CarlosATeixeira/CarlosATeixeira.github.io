@@ -37,7 +37,8 @@ body::before {
   left: 50%;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%);
+  z-index: 5000;
+  background-image: radial-gradient(ellipse at center, transparent 50%, black 100%);
   transform: translateX(-50%);
   pointer-events: none;
 }

@@ -49,18 +49,18 @@ h3{
 
 img{
     margin: 10px;
-    display: flexbox;
     width: min(max(50px, 100%), 400px);
     height: fit-content;
     border: 2px black solid;
     border-radius: 10px;
+    transition: scale 0.2s;
 }
 
 .solo{
     width: min(max(50px, 100%), 600px);
 }
 
-#backtotop_buttom{
+/* #backtotop_buttom{
     border: none;
     position: fixed;
     bottom: 1vh;
@@ -84,4 +84,4 @@ img{
 
 #backtotop_buttom:active{
     scale: 0.9;
-}
+} */
