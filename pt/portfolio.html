@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html class="=" lang="pt-BR">
+
 <head>
+    <meta name="theme-color" content="#202020" />
+    <meta name="description"
+        content="Portfolio diversificado mostrando meus trabalhos criativos, incluindo introduções para canais do YouTube, portfolios personalizados, design gráfico para Crea Jr - MG, desenvolvimento de web jogos, criação de logos, e designs gráficos inovadores para servidores de GTA-5 FIVE-M.">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'none';
+    script-src 'self' https://www.googletagmanager.com; 
+    style-src 'self' https://cdnjs.cloudflare.com;
+    font-src 'self' https://cdnjs.cloudflare.com;
+    img-src 'self';
+    connect-src 'self';
+">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-YB9Y3P08RS');
+        gtag('config', 'G-YB9Y3P08RS');
     </script>
     <!-------------------------->
     <meta charset="UTF-8">
@@ -18,42 +30,43 @@
     <link rel="icon" type="image/png" href="../content/imagens/fav.png">
     <link rel="stylesheet" href="../content/style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="preload" href="../content/fonts/Saira.ttf" as="font" type="font/ttf">
     <script src="../content/script/portfolio_itens-loader.js"></script>
+    <script src="../content/script/header-active_page.js"></script>
 </head>
+
 <body class="portfolio_page">
     <a href="../language_selector.html" id="language_selector"><i class="fas fa-globe"></i></a>
     <header>
-    <h1>Carlos Alberto</h1>
-    <nav id="nav_menu">
-        <li><a href="../pt/resumo.html" class="first" id="resumo">Resumo</a></li>
-        <li><a href="../pt/experiencia.html" class="mid" id="experiencia">Experiência</a></li>
-        <li><a href="../pt/certificados.html" class="mid" id="certificados">Certificados</a></li>
-        <li><a href="../pt/portfolio.html" class="mid" id="portfolio">Portfólio</a></li>
-        <li><a href="../pt/contato.html" class="last" id="contato">Contato</a></li>
-    </nav>
-</header>
+        <h1>Carlos Alberto</h1>
+        <nav id="nav_menu">
+            <li><a href="../pt/resumo.html" class="first" id="resumo">Resumo</a></li>
+            <li><a href="../pt/experiencia.html" class="mid" id="experiencia">Experiência</a></li>
+            <li><a href="../pt/certificados.html" class="mid" id="certificados">Certificados</a></li>
+            <li><a href="../pt/portfolio.html" class="mid" id="portfolio">Portfólio</a></li>
+            <li><a href="../pt/contato.html" class="last" id="contato">Contato</a></li>
+        </nav>
+    </header>
 
     <div class="main_page gray_page portfolio_page" id="indice">
         <p class="portfolio_title">Portfolio</p>
-        <hr style="margin: 20px auto; max-width: 500px;">
+        <hr class="custom-hr">
 
         <div id="menu-container">
             <div id="selection-container"></div>
         </div>
-        
-        <hr style="margin: 30px auto 20px auto; max-width: 500px;">
+
+        <hr class="custom-hr">
     </div>
-    <div style="height: 20px;"></div>
-    
+    <div class="spacer"></div>
+
     <div class="main_page gray_page portfolio_page item_details" id="items_page"></div>
 
     <footer>
-    <p>Carlos Alberto &#169 Brasil 2023</p>
-</footer>
+        <p>Carlos Alberto &#169 Brasil 2023</p>
+    </footer>
 </body>
 <style>
-    #portfolio{
+    #portfolio {
         background-color: #2e2e2e !important;
         color: white !important;
     }

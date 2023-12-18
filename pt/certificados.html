@@ -2,14 +2,25 @@
 <html class="crt" lang="pt-BR">
 
 <head>
+    <meta name="theme-color" content="#202020" />
+    <meta name="description"
+        content="Descubra nesta página a coleção dos meus certificados de cursos e uma visão detalhada das experiências enriquecedoras nas quais participei, destacando o aprendizado valioso que adquiri em cada uma delas.">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'none';
+    script-src 'self' https://www.googletagmanager.com; 
+    style-src 'self' https://cdnjs.cloudflare.com;
+    font-src 'self' https://cdnjs.cloudflare.com;
+    img-src 'self';
+    connect-src 'self';
+">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-YB9Y3P08RS');
+        gtag('config', 'G-YB9Y3P08RS');
     </script>
     <!-------------------------->
     <meta charset="UTF-8">
@@ -19,19 +30,21 @@
     <link rel="icon" type="image/png" href="../content/imagens/fav.png">
     <link rel="stylesheet" href="../content/style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="../content/script/header-active_page.js"></script>
 </head>
+
 <body class="certificated_pages">
     <a href="../language_selector.html" id="language_selector"><i class="fas fa-globe"></i></a>
     <header>
-    <h1>Carlos Alberto</h1>
-    <nav id="nav_menu">
-        <li><a href="../pt/resumo.html" class="first" id="resumo">Resumo</a></li>
-        <li><a href="../pt/experiencia.html" class="mid" id="experiencia">Experiência</a></li>
-        <li><a href="../pt/certificados.html" class="mid" id="certificados">Certificados</a></li>
-        <li><a href="../pt/portfolio.html" class="mid" id="portfolio">Portfólio</a></li>
-        <li><a href="../pt/contato.html" class="last" id="contato">Contato</a></li>
-    </nav>
-</header>
+        <h1>Carlos Alberto</h1>
+        <nav id="nav_menu">
+            <li><a href="../pt/resumo.html" class="first" id="resumo">Resumo</a></li>
+            <li><a href="../pt/experiencia.html" class="mid" id="experiencia">Experiência</a></li>
+            <li><a href="../pt/certificados.html" class="mid" id="certificados">Certificados</a></li>
+            <li><a href="../pt/portfolio.html" class="mid" id="portfolio">Portfólio</a></li>
+            <li><a href="../pt/contato.html" class="last" id="contato">Contato</a></li>
+        </nav>
+    </header>
 
     <div class="main_page gray_page certificados_page">
         <div class="certificados">
@@ -48,14 +61,15 @@
     </div>
 
     <footer>
-    <p>Carlos Alberto &#169 Brasil 2023</p>
-</footer>
+        <p>Carlos Alberto &#169 Brasil 2023</p>
+    </footer>
 </body>
 <script src="../content/script/certificados-loader.js"></script>
 <style>
-    #certificados{
+    #certificados {
         background-color: #2e2e2e !important;
         color: white !important;
     }
 </style>
+
 </html>

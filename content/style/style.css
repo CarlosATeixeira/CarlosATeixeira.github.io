@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     color: white;
     font-family: PrimaryFont, Consolas, sans-serif;
+    font-display: swap;
     text-align: center;
     letter-spacing: 0.01vw;
     letter-spacing: 0.01svw;
@@ -84,7 +85,8 @@ body[data-page="experiencia"] #header #nav_menu #experiencia {
 
 /* LANGUAGE SELECTOR */
 
-.language_selector_page_body html, body{
+.language_selector_page_body html,
+body {
     display: flex;
     min-width: 100svw;
     min-height: 100svh;
@@ -126,11 +128,19 @@ body[data-page="experiencia"] #header #nav_menu #experiencia {
     scale: 0.9;
 }
 
-#language_selector{
+#language_selector {
     color: white;
     font-size: 3rem;
+    width: fit-content;
+    margin: auto;
+    transition: scale 0.2s;
 }
-#language_selector:visited{
+
+#language_selector:hover {
+    scale: 1.1;
+}
+
+#language_selector:visited {
     color: white;
 }
 
@@ -211,6 +221,11 @@ header #nav_menu li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+header .active-page {
+    background-color: #2e2e2e !important;
+    color: white !important;
 }
 
 /* FOOTER */
@@ -517,6 +532,10 @@ body::before {
     transform: scale(0.9);
 }
 
+.portfolio_page .highlight {
+    color: red;
+}
+
 /* PORTFOLIO PAGE */
 
 .portfolio_page .portfolio_page {
@@ -579,6 +598,14 @@ body::before {
 
 .portfolio_page .solo {
     width: min(max(50px, 100%), 600px);
+}
+
+.portfolio_page hr.custom-hr {
+    margin: 20px auto;
+    max-width: 500px;
+}
+.portfolio_page div.spacer {
+    height: 20px;
 }
 
 /* .portfolio_page #backtotop_buttom{

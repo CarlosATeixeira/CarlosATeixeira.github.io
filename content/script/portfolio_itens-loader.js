@@ -102,7 +102,7 @@ function MostrarPortfolio_Itens(category){
         } 
 
         let htmlContent = `
-            <h2>${defaultTitle} <span style="color: red;">${item.titulo}</span></h2>
+            <h2>${defaultTitle} <span class="highlight">${item.titulo}</span></h2>
             <p>${item.versao}</p>
             <div class="portfolio_item_img_grid">
                 ${item.imagens.map(imagem => `<img class="${image_class}" src="${imagem}">`).join('')}

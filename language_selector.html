@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html class="crt" lang="pt-BR">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
-        <script>
+
+<head>
+    <meta name="theme-color" content="#202020" />
+    <meta name="description"
+        content="Choose your preferred language by selecting the corresponding flag. Enjoy a personalized and seamless website experience in the language you feel most comfortable with.">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'none';
+    script-src 'self' https://www.googletagmanager.com; 
+    style-src 'self' https://cdnjs.cloudflare.com;
+    font-src 'self' https://cdnjs.cloudflare.com;
+    img-src 'self';
+    connect-src 'self';
+">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-YB9Y3P08RS');
-        </script>
-        <!-------------------------->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Language Selector</title>
-        <link rel="icon" type="image/png" href="../content/imagens/fav.png">
-        <link rel="stylesheet" href="./content/style/style.css">
-    </head>
-    <body class="language_selector_page_body">
-        <div class="flag-container">
-            <a href="/pt/resumo.html"><img src="content/imagens/flag-br.png" class="flag" id="flag-br"></a>
-            <a href="/en/resumo.html"><img src="content/imagens/flag-en.jpg" class="flag" id="flag-en"></a>
-            <!-- <a href="/jp/resumo.html"><img src="content/imagens/flag-jp.png" class="flag" id="flag-jp"></a> -->
-        </div>
-    </body>
+    </script>
+    <!-------------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector</title>
+    <link rel="icon" type="image/png" href="../content/imagens/fav.png">
+    <link rel="stylesheet" href="./content/style/style.css">
+<script src="../content/script/header-active_page.js"></script>
+</head>
+
+<body class="language_selector_page_body">
+    <div class="flag-container">
+        <a href="/pt/resumo.html"><img src="content/imagens/flag-br.png" class="flag" id="flag-br"></a>
+        <a href="/en/resumo.html"><img src="content/imagens/flag-en.jpg" class="flag" id="flag-en"></a>
+        <!-- <a href="/jp/resumo.html"><img src="content/imagens/flag-jp.png" class="flag" id="flag-jp"></a> -->
+    </div>
+</body>
+
 </html>

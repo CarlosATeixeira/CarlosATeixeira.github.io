@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html class="crt" lang="pt-BR">
+
 <head>
+    <meta name="theme-color" content="#202020" />
+    <meta name="description"
+        content="Welcome to the starting page where you can select your preferred language for a tailored browsing experience. Navigate effortlessly in the language of your choice throughout our website.">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'none';
+    script-src 'self' https://www.googletagmanager.com; 
+    style-src 'self' https://cdnjs.cloudflare.com;
+    font-src 'self' https://cdnjs.cloudflare.com;
+    img-src 'self';
+    connect-src 'self';
+">
     <meta property="og:title" content="Carlos Alberto" />
     <meta property="og:description" content="Personal website for my professional path." />
     <meta property="og:url" content="https://carlosalberto.dev/" />
@@ -13,11 +25,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-YB9Y3P08RS');
+        gtag('config', 'G-YB9Y3P08RS');
     </script>
     <!-------------------------->
     <meta charset="UTF-8">
@@ -26,15 +38,19 @@
     <link rel="icon" type="image/png" href="../content/imagens/fav.png">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2" as="font">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2"
+        as="font">
     <!-- ------------ -->
     <link rel="stylesheet" href="./content/style/style.css">
+<script src="../content/script/header-active_page.js"></script>
 </head>
+
 <body class="power_page_body">
     <div class="container">
-        <a href="./language_selector.html">
+        <a href="./language_selector.html" aria-label="Go to language selector">
             <i class="fas fa-power-off"></i>
         </a>
     </div>
 </body>
+
 </html>

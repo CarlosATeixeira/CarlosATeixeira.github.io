@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html class="crt" lang="en-US">
+
 <head>
+    <meta name="theme-color" content="#202020" />
+    <meta name="description"
+        content="Diverse portfolio showcasing my creative works, including YouTube channel intros, personalized portfolios, graphic design for Crea Jr - MG, web game development, logo creation, and innovative graphic designs for GTA-5 FIVE-M servers.">
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'none';
+    script-src 'self' https://www.googletagmanager.com; 
+    style-src 'self' https://cdnjs.cloudflare.com;
+    font-src 'self' https://cdnjs.cloudflare.com;
+    img-src 'self';
+    connect-src 'self';
+">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-YB9Y3P08RS');
+        gtag('config', 'G-YB9Y3P08RS');
     </script>
     <!-------------------------->
     <meta charset="UTF-8">
@@ -18,43 +30,46 @@
     <link rel="icon" type="image/png" href="../content/imagens/fav.png">
     <link rel="stylesheet" href="../content/style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="preload" href="../content/fonts/Saira.ttf" as="font" type="font/ttf">
     <script src="../content/script/portfolio_itens-loader.js"></script>
+<script src="../content/script/header-active_page.js"></script>
 </head>
+
 <body>
-    <a href="../language_selector.html" id="language_selector"><i class="fas fa-globe"></i></a>    <header>
-    <h1>Carlos Alberto</h1>
-    <nav id="nav_menu">
-        <li><a href="../en/resumo.html" class="first" id="resumo">Summary</a></li>
-        <li><a href="../en/experiencia.html" class="mid" id="experiencia">Experiences</a></li>
-        <li><a href="../en/certificados.html" class="mid" id="certificados">Certificates</a></li>
-        <li><a href="../en/portfolio.html" class="mid" id="portfolio">Portfolio</a></li>
-        <li><a href="../en/contato.html" class="last" id="contato">Contact</a></li>
-    </nav>
-</header>
+    <a href="../language_selector.html" id="language_selector"><i class="fas fa-globe"></i></a>
+    <header>
+        <h1>Carlos Alberto</h1>
+        <nav id="nav_menu">
+            <li><a href="../en/resumo.html" class="first" id="resumo">Summary</a></li>
+            <li><a href="../en/experiencia.html" class="mid" id="experiencia">Experiences</a></li>
+            <li><a href="../en/certificados.html" class="mid" id="certificados">Certificates</a></li>
+            <li><a href="../en/portfolio.html" class="mid" id="portfolio">Portfolio</a></li>
+            <li><a href="../en/contato.html" class="last" id="contato">Contact</a></li>
+        </nav>
+    </header>
 
     <div class="main_page gray_page portfolio_page" id="indice">
         <p class="portfolio_title">Portfolio</p>
-        <hr style="margin: 20px auto; max-width: 500px;">
+        <hr class="custom-hr">
 
         <div id="menu-container">
             <div id="selection-container"></div>
         </div>
-        
-        <hr style="margin: 30px auto 20px auto; max-width: 500px;">
+
+        <hr class="custom-hr">
     </div>
-    <div style="height: 20px;"></div>
-    
+    <div class="spacer"></div>
+
     <div class="main_page gray_page portfolio_page item_details" id="items_page"></div>
 
     <footer>
-    <p>Carlos Alberto &#169 Brazil 2023</p>
-</footer>
+        <p>Carlos Alberto &#169 Brazil 2023</p>
+    </footer>
 </body>
 <style>
-    #portfolio{
+    #portfolio {
         background-color: #2e2e2e !important;
         color: white !important;
     }
 </style>
+
 </html>
