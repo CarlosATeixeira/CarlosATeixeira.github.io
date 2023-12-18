@@ -1,4 +1,4 @@
-let typingSpeed = 50;
+let typingSpeed;
 const max = 2;
 const min = 0;
 let currentLine = 0;
@@ -71,7 +71,7 @@ const typeLetter = (line, text, position, allLines) => {
             typeLetter(allLines[currentLine], nextText, 0, allLines);
         } else {
             // Once all lines are typed out, call the Redirecting function
-            Redirecting();
+            // Redirecting();
         }
     }
 };
