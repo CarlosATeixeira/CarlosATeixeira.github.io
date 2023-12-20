@@ -16,6 +16,7 @@ export default function Enable_Img_Focus() {
             let lastDotIndex = src.lastIndexOf('.');
             let base = src.substring(0, lastDotIndex);
             let extension = src.substring(lastDotIndex);
+            img_element.src = ``; // Prevent last image to wrongly showing in screen before current img is loaded
             img_element.src = `${base}_hq${extension}`;
             console.log(img.src);
             document.body.style.overflow = 'hidden';
