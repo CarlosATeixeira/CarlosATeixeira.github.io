@@ -28,16 +28,6 @@ body {
     overflow-x: hidden;
 }
 
-body[data-page="resumo"] #header #nav_menu #resumo {
-    background-color: #020202 !important;
-    color: white !important;
-}
-
-body[data-page="experiencia"] #header #nav_menu #experiencia {
-    background-color: #020202 !important;
-    color: white !important;
-}
-
 /* POWER PAGE */
 
 .power_page_body .container {
@@ -132,8 +122,9 @@ body {
     color: white;
     font-size: 3rem;
     width: fit-content;
-    margin: auto;
+    margin: 1rem auto;
     transition: scale 0.2s;
+    z-index: 0;
 }
 
 #language_selector:hover {
@@ -441,7 +432,7 @@ body::before {
     left: 50%;
     width: 100%;
     height: 100%;
-    z-index: 5000;
+    z-index: 10;
     background-image: radial-gradient(ellipse at center, transparent 50%, black 100%);
     transform: translateX(-50%);
     pointer-events: none;
@@ -547,7 +538,7 @@ body::before {
     font-weight: 1000;
 }
 
-.portfolio_page h1 {
+.portfolio_page > h1 {
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -593,7 +584,7 @@ body::before {
     height: fit-content;
     border: 2px black solid;
     border-radius: 10px;
-    transition: scale 0.2s;
+    transition: scale 0.2s, opacity 0.2s;
 }
 
 .portfolio_page .solo {
@@ -608,31 +599,42 @@ body::before {
     height: 20px;
 }
 
-/* .portfolio_page #backtotop_buttom{
-    border: none;
-    position: fixed;
-    bottom: 1vh;
-    bottom: 1svh;
-    right: 1vw;
-    right: 1svw;
-    background-color: #111;
-    color: white;
-    font-size: xxx-large;
-    font-weight: bolder;
-    width: max-content;
-    height: max-content;
-    padding: 20px;
-    border-radius: 200px;
-    z-index: 1000;
+.portfolio_item_img_grid:has(img:hover) img:not(:hover){
+    opacity: 0.5;
 }
 
-.portfolio_page #backtotop_buttom:hover{
+.portfolio_item_img_grid:has(img:hover) img:hover{
     scale: 1.1;
+    z-index: 20;
 }
 
-.portfolio_page #backtotop_buttom:active{
-    scale: 0.9;
-} */
+.portfolio_page > .portfolio_img_focus_container {
+    background-color: black;
+
+}
+
+.portfolio_page > .portfolio_img_focus_frame {
+    visibility: hidden;
+    position: fixed;
+    background-color: #000a;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 30;
+}
+
+.portfolio_page > .portfolio_img_focus_frame > img{
+    padding: 0;
+    margin: 0;
+    height: 90%;
+    width: auto;
+    object-fit: contain;
+}
 
 /* TEXT DEFAULT FORMAT */
 

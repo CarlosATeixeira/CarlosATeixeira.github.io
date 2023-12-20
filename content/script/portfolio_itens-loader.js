@@ -1,3 +1,5 @@
+import Enable_Img_Focus from './portfolio_image-focus.js';
+
 const DEFAULT_PAGE = "intros";
 const SELECTION_CONTAINER = "selection-container";
 
@@ -105,7 +107,7 @@ function MostrarPortfolio_Itens(category){
             <h2>${defaultTitle} <span class="highlight">${item.titulo}</span></h2>
             <p>${item.versao}</p>
             <div class="portfolio_item_img_grid">
-                ${item.imagens.map(imagem => `<img class="${image_class}" src="${imagem}">`).join('')}
+                ${item.imagens.map(imagem => `<img class="portfolio_img ${image_class}" src="${imagem}">`).join('')}
             </div>
             <hr>
         `;
@@ -114,4 +116,6 @@ function MostrarPortfolio_Itens(category){
 
         container.appendChild(div);
     });
+    
+    Enable_Img_Focus();
 }
