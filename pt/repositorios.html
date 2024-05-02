@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html class="crt" lang="pt-BR">
+<html class="=" lang="pt-BR">
 
 <head>
     <meta name="theme-color" content="#202020" />
     <meta name="description"
-        content="Esta página apresenta meu e-mail para contato direto. Sinta-se à vontade para entrar em contato comigo para esclarecimento de dúvidas, discussões sobre questões profissionais, propostas de projetos ou oportunidades de networking.">
+        content="Portfolio diversificado mostrando meus trabalhos criativos, incluindo introduções para canais do YouTube, portfolios personalizados, design gráfico para Crea Jr - MG, desenvolvimento de web jogos, criação de logos, e designs gráficos inovadores para servidores de GTA-5 FIVE-M.">
     <meta http-equiv="Content-Security-Policy" content="
-    default-src 'none';
-    script-src 'self' https://www.googletagmanager.com; 
-    style-src 'self' https://cdnjs.cloudflare.com;
-    font-src 'self' https://cdnjs.cloudflare.com;
-    img-src 'self';
-    connect-src 'self';
-    frame-src 'self';
-">
+        default-src 'none';
+        script-src 'self' https://cdn.jsdelivr.net;
+        script-src 'self' https://www.googletagmanager.com; 
+        style-src 'self' https://cdnjs.cloudflare.com;
+        font-src 'self' https://cdnjs.cloudflare.com;
+        img-src 'self';
+        connect-src 'self' https://api.github.com;
+        frame-src 'self';
+    ">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB9Y3P08RS"></script>
     <script>
@@ -26,15 +28,17 @@
     <!-------------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Alberto - Contato</title>
+    <title>Carlos Alberto - Portfólio</title>
+    <link rel="preload" href="../content/fonts/Saira.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="../content/imagens/fav.png">
     <link rel="stylesheet" href="../content/style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="../content/script/typing-animation.js"></script>
-<script src="../content/script/header-active_page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../content/script/header-active_page.js"></script>
+    <script src="../content/script/repositories.js"></script>
 </head>
 
-<body class="contact_page">
+<body class="repo_page main_page">
     <a href="../language_selector.html" id="language_selector"><i class="fas fa-globe"></i></a>
     <header>
         <h1>Carlos Alberto</h1>
@@ -48,21 +52,22 @@
         </nav>
     </header>
 
-    <div class="main_page contato_page gray_page">
-        <h1 class="contato_title">Contato</h1>
-        <p>Para me contactar, por favor, envie um e-mail para:</p>
-        <p class="e-mail"><a href="mailto:contato@carlosalberto.dev">contato@carlosalberto.dev</a></p>
-    </div>
+    
+
+    <h1>Repositórios</h1>
+    <br>
+    <hr>
+
+    <div id="repositories"></div>
 
     <footer>
         <p>Carlos Alberto &#169 Brasil 2023</p>
     </footer>
 </body>
 <style>
-    #contato {
+    #repositorios {
         background-color: #2e2e2e !important;
         color: white !important;
     }
 </style>
-
 </html>

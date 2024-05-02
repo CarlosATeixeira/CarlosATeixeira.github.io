@@ -31,3 +31,20 @@ document.addEventListener('click', function(event) {
         document.body.style.overflow = ''; // Reset body overflow
     }
 });
+
+document.querySelector('.portfolio_page > .portfolio_img_focus_frame > img').addEventListener('load', function() {
+    var aspectRatio = this.naturalWidth / this.naturalHeight;
+    var parentWidth = this.parentNode.clientWidth;
+    var parentHeight = this.parentNode.clientHeight;
+    var parentAspectRatio = parentWidth / parentHeight;
+
+    if (aspectRatio > parentAspectRatio) {
+        // Image is wider than parent
+        this.style.width = '80%';
+        this.style.height = 'auto';
+    } else {
+        // Image is taller than parent
+        this.style.width = 'auto';
+        this.style.maxHeight = '80%';
+    }
+});

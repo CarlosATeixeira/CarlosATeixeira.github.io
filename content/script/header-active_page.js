@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const certificadosLink = document.getElementById('certificados');
     const portfolioLink = document.getElementById('portfolio');
     const contatoLink = document.getElementById('contato');
+    const repoLink = document.getElementById('repositorios');
 
     if (document.getElementsByClassName("resume_page").length > 0) {
         resumoLink.classList.add('active-page');
@@ -13,6 +14,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         experienciaLink.classList.add('active-page');
     } else if (document.getElementsByClassName("contact_page").length > 0) {
         contatoLink.classList.add('active-page');
+    } else if (document.getElementsByClassName("repo_page").length > 0) {
+        repoLink.classList.add('active-page');
     } else if (document.getElementsByClassName("certificated_pages").length > 0) {
         certificadosLink.classList.add('active-page');
     }

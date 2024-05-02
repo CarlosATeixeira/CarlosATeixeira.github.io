@@ -1,0 +1,37 @@
+{
+    "MecBot":{
+        "description": "Bot de Discord feito para administrar servidor voltado para uma mecânica que fazia parte de um servidor de Metaverso."
+    },
+
+    "OficinaSantaBot":{
+        "description": "Segunda versão do MecBot, feito para realizar ações principais e repetitivas dentro do servidor do Discord."
+    },
+
+    "Pathlink":{
+        "description": "Software em desenvolvimento para a realização de estudos de LOS (LINE OF SIGHT)."
+    },
+
+    "MapPinner":{
+        "description": "Software feito para realizar mapeamento de todos comercios e regiões importantes para setores de Telecomunicação."
+    },
+
+    "search_engine_based_on_points": {
+        "description": "Desenvolvido para funcionar como um software de pesquisa que considera importancia de certos itens."
+    },
+
+    "decorative_clock_html_css": {
+        "description": "Relógio feito com html/css/js, para ser utilizado como decoração em paginas web."
+    },
+
+    "Electron_AlarmClock": {
+        "description": "Aplicativo de alarme digital feito em Electron."
+    },
+
+    "Discord-Bot-Template":{
+        "description": "Modelo para Bot de Discord publicado para ser utilizado pelo público."
+    },
+    
+    "LRC_to_text_renderer":{
+        "description": "<h3>Overview</h3><hr><br>\n<p>This script converts LRC (Lyric) files into videos displaying the lyrics synchronized with the timing specified in the LRC file. It's a perfect tool for creating karaoke-style videos or simple lyric videos for any song.</p>\n<br><br><h3>Features</h3><hr><br>\n<ul>\n<li>Parses LRC files and extracts timing and lyrics.</li>\n<li>Generates a video with synchronized lyrics.</li>\n<li>Customizable video properties like frame rate, dimensions, and font settings.</li>\n</ul>\n<br><br><h3>Prerequisites</h3><hr><br>\n<p>To run this script, you need to have Python installed on your system along with the following libraries:</p>\n<ul>\n<li>OpenCV (cv2)</li>\n<li>NumPy (numpy)</li>\n</ul>\n<br><br><h3>Installation</h3><hr><br>\n<ol>\n<li>Clone the repository: git clone https://github.com/CarlosATeixeira/LRC_to_text_renderer</li>\n<li>Install the required Python libraries: pip install opencv-python numpy</li>\n</ol>\n<br><br><h3>Usage</h3><hr><br>\n<ol>\n<li>Prepare your LRC file with the lyrics and timings.</li>\n<li>Place the LRC file in an accessible directory.</li>\n<li>Run the script with the path to your LRC file: python main.py 'path_to_your_lrc_file.lrc'</li>\n<li>Replace script_name.py with the name of your script and 'path_to_your_lrc_file.lrc' with the path to your LRC file. 4. The script will generate a video file named output_video.mp4 in the same directory.</li>\n</ol>\n<br><br><h3>Customization</h3><hr><br>\n<p>You can customize the following video properties in the script:</p>\n<ul>\n<li>Frame rate (fps)</li>\n<li>Video dimensions (width, height)</li>\n<li>Font style, scale, and color</li>\n<li>Maximum line length for text wrapping</li>\n</ul>\n<br><br><h3>Contributing</h3><hr><br>\n<p>Feel free to fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.</p>\n<br><br><h3>License</h3><hr><br>\n<p>MIT</p>"
+    }
+}
